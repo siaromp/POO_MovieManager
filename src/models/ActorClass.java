@@ -16,4 +16,8 @@ public class ActorClass implements Actor {
 	public long getId() {
 		return this.id;
 	}
+
+	public void setID(long id) {
+		this.id=id;
+	}
 }
